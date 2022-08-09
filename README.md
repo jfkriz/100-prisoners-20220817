@@ -10,11 +10,11 @@ A room contains a cupboard with 100 drawers, labeled 1 to 100.
 
 The director randomly puts one prisoner's number in each closed drawer. 
 
-The prisoners enter the room, one after another. Each prisoner may open and look into 50 drawers in any order. The drawers are closed again afterwards. 
+The prisoners enter the room, one after another. Each prisoner may open and look into at most 50 drawers in any order. The drawers are closed again afterwards. 
 
 If, during this search, every prisoner finds their number in one of the drawers, all prisoners are pardoned. 
 
-If just one prisoner does not find their number, then the deal is off.
+If just one prisoner does not find his number within 50 drawers, then the deal is off. No one leaves.
 
 Before the first prisoner enters the room, the prisoners may discuss strategy — but may not communicate once the first prisoner enters to look in the drawers. 
 
@@ -63,7 +63,7 @@ Your assignment:
 
 2. Run a large number of simulations on each strategy and compile statistics on how often each one failed and how often they succeeded.
 
-3. Compare the empirical results with the expected results.
+3. Compare the empirical results with the probabilities.
 
 
 ## Starter Projects
